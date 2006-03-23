@@ -9,8 +9,8 @@ Source0:	http://nifelheim.dyndns.org/~cocidius/files/gimp-dds-%{version}.tar.bz2
 # Source0-md5:	afa9a8823e4fbdc107014250ebd6fd29
 URL:		http://nifelheim.dyndns.org/~cocidius/dds/
 BuildRequires:	gimp-devel >= 1:2.0.0
-BuildRequires:	glew
-BuildRequires:	glut
+BuildRequires:	glew-devel
+BuildRequires:	glut-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%(gimptool --gimpplugindir)/plug-ins
