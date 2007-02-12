@@ -1,5 +1,5 @@
 Summary:	DDS plugin
-Summary(pl):	Wtyczka DDS
+Summary(pl.UTF-8):   Wtyczka DDS
 Name:		gimp-plugin-dds
 Version:	1.0.1
 Release:	1
@@ -29,19 +29,19 @@ format.
 - Non-power-of-two image loading and saving support with automatic
   mipmap generation support.
 
-%description -l pl
-Wtyczka pozwalaj±ca wczytywaæ i zapisywaæ obrazy w formacie Direct
+%description -l pl.UTF-8
+Wtyczka pozwalajÄ…ca wczytywaÄ‡ i zapisywaÄ‡ obrazy w formacie Direct
 Draw Surface (DDS).
 
-- Odczyt/zapis plików DDS, opcjonalna kompresja tekstur DXT,
+- Odczyt/zapis plikÃ³w DDS, opcjonalna kompresja tekstur DXT,
 - Opcjonalna automatyczna generacja mipmap podczas zapisu,
-- £adowanie mipmap do osobnych warstw,
-- £adowanie ¶cian cube mapy i przekrojów volume mapy do osobnych
+- Åadowanie mipmap do osobnych warstw,
+- Åadowanie Å›cian cube mapy i przekrojÃ³w volume mapy do osobnych
   warstw,
-- Zapisywanie cube map i volume map z automatyczn± generacj± mipmap,
-- Zapisywanie obrazów z w³asnym formatem pikseli,
-- £adowanie i zapisywanie obrazów o wymiarach ró¿nych od potêg
-  dwójki z automatyczn± generacj± mipmap.
+- Zapisywanie cube map i volume map z automatycznÄ… generacjÄ… mipmap,
+- Zapisywanie obrazÃ³w z wÅ‚asnym formatem pikseli,
+- Åadowanie i zapisywanie obrazÃ³w o wymiarach rÃ³Å¼nych od potÄ™g
+  dwÃ³jki z automatycznÄ… generacjÄ… mipmap.
 
 %prep
 %setup -q -n gimp-dds
