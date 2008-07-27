@@ -2,7 +2,7 @@ Summary:	DDS plugin
 Summary(pl.UTF-8):	Wtyczka DDS
 Name:		gimp-plugin-dds
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://nifelheim.dyndns.org/~cocidius/files/gimp-dds-%{version}.tar.bz2
