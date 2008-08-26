@@ -1,5 +1,5 @@
-Summary:	DDS plugin
-Summary(pl.UTF-8):	Wtyczka DDS
+Summary:	DDS (Direct Draw Surface file format) plugin for GIMP
+Summary(pl.UTF-8):	Wtyczka DDS (obsługująca format Direct Draw Surface) dla GIMP-a
 Name:		gimp-plugin-dds
 Version:	1.0.1
 Release:	3
@@ -8,9 +8,9 @@ Group:		X11/Applications/Graphics
 Source0:	http://nifelheim.dyndns.org/~cocidius/files/gimp-dds-%{version}.tar.bz2
 # Source0-md5:	afa9a8823e4fbdc107014250ebd6fd29
 URL:		http://nifelheim.dyndns.org/~cocidius/dds/
+BuildRequires:	OpenGL-glut-devel
 BuildRequires:	gimp-devel >= 1:2.0.0
 BuildRequires:	glew-devel
-BuildRequires:	OpenGL-glut-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%(gimptool --gimpplugindir)/plug-ins
@@ -56,7 +56,7 @@ Draw Surface (DDS).
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_plugindir}
 
-install dds		$RPM_BUILD_ROOT%{_plugindir}
+install dds $RPM_BUILD_ROOT%{_plugindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
