@@ -2,7 +2,7 @@ Summary:	DDS (Direct Draw Surface file format) plugin for GIMP
 Summary(pl.UTF-8):	Wtyczka DDS (obsługująca format Direct Draw Surface) dla GIMP-a
 Name:		gimp-plugin-dds
 Version:	1.0.1
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://nifelheim.dyndns.org/~cocidius/files/gimp-dds-%{version}.tar.bz2
