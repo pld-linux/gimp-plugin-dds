@@ -11,6 +11,7 @@ URL:		http://nifelheim.dyndns.org/~cocidius/dds/
 BuildRequires:	OpenGL-glut-devel
 BuildRequires:	gimp-devel >= 1:2.0.0
 BuildRequires:	glew-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%(gimptool --gimpplugindir)/plug-ins
